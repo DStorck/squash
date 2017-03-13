@@ -52,4 +52,6 @@ DStorck~/Samsung/squash (master)$ git hist
 * 4e5891a 2017-03-13 | first commit (origin/master) [Deirdre Storck]
 ```
 You have re-written history.
-WARNING! Do not attempt to squash commits that are shared.  This will anger the gods. 
+WARNING! Do not attempt to squash commits that are shared.  This will anger the gods.
+
+If you are attempting to push this up to a remote repo on GitHub, you will need to run 'git push -f' to overwrite the remote history. 
