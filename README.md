@@ -35,7 +35,7 @@ pick c7803df sixth commit - good
 #
 # These lines can be re-ordered; they are executed from top to bottom.
 ```
-Change the 'pick' to 's' or 'squash', and it will squash those into an older commit.
+Change the `pick` to `s` or `squash`, and it will squash those into an older commit.
 
 ```
 pick 9600517 second commit - added a line of text
@@ -54,4 +54,4 @@ DStorck~/Samsung/squash (master)$ git hist
 You have re-written history.
 WARNING! Do not attempt to squash commits that are shared.  This will anger the gods.
 
-If you are attempting to push this up to a remote repo on GitHub, you will need to run 'git push -f' to overwrite the remote history. 
+If you are attempting to push this up to a remote repo on GitHub, you will need to run `git push -f` to overwrite the remote history. 
